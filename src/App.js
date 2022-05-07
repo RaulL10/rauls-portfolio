@@ -25,7 +25,8 @@ const App = () => {
           </section>
 
           <section id="S3" className="section-3">
-            <h1> SECTION 3 </h1>
+            <h1>Contact Info</h1>
+            
           </section>
 
         </Router>

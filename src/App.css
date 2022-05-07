@@ -1,7 +1,7 @@
 :root {
   /* variables css*/
   --color-main: #ffffff;
-
+  font-family: 'Marvel', sans-serif;
   /*10 pixels (100% = 16 pixels)*/
   font-size: 62.5%; 
 }
@@ -47,10 +47,10 @@ h1{
 
 .section-3 {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  background-color: rgb(15, 2, 61);
-  height: 100vh;
+  background-color: rgb(68, 68, 68);
+  height: 30vh;
 }
 
 @media (max-width: 699px) {
