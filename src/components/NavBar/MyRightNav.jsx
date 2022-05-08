@@ -67,10 +67,10 @@ const RightNav = ({ open }) => {
 
       <div style={navContainer}>
         <Ul open={open}>
-            <NavBt path="Header" name="Header"/>
-            <NavBt path="S1" name="Section-1"/>
-            <NavBt path="S2" name="Section-2"/>
-            <NavBt path="S3" name="Section-3"/>
+            <NavBt path="Header" name="HOME"/>
+            <NavBt path="S1" name="ABOUT ME"/>
+            <NavBt path="S2" name="PROJECTS"/>
+            <NavBt path="S3" name="CONTACT"/>
 
             <div className="side-menu">
               <div className="flex-container-column ">
