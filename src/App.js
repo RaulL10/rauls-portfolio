@@ -29,6 +29,7 @@ const App = () => {
 
           <section id="S2" className="section-2">
             <h1 className='ptitle'> PROJECTS </h1>
+
             <div className='left'>
               <img src="https://i.imgur.com/ZqyNSv8.png" width="500px" alt="" ></img>
               <aside>
@@ -43,34 +44,38 @@ const App = () => {
                   <i class="fa-brands fa-js-square fa-2xl"></i>
                 </div>
                 <label>Description:</label>
-                <li><span>MERN Stack App </span></li>	
+                <li>MERN Stack App</li>	
                 <li> React project meant to provide up to date live scores and information on the world cup </li>
                 <li> Used the MySportsMonk API to get the data coming in up to date even during the games </li>
-
+                <li>Users can create an account and place predictions on matches and see their predictions compared to others</li>
+                <li><span>MOBILE FRIENDLY</span></li>
                 <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank' className='weblink'>World-Cup-Tracker</a>
               </aside>
             </div>
+            <hr></hr>
 
 
             <div className='right'>
               <img src="https://i.imgur.com/JhberSW.png" width="500px" alt="" ></img>
               <aside>
-                <h2> World Cup Tracker </h2>
+                <h2> Estates-Castle </h2>
                   <br></br>
                   <div className='skills'>
                     <p>Technologies Used:</p>
                     <br></br>
-                    <i class="fa-brands fa-react fa-2xl"></i>
+                    <i class="fa-brands fa-python fa-2xl"></i>
                     <i class="fa-brands fa-html5 fa-2xl"></i>
                     <i class="fa-brands fa-css3-alt fa-2xl"></i>
-                    <i class="fa-brands fa-js-square fa-2xl"></i>
+                    <i class="fa-brands fa-aws fa-2xl"></i>
                   </div>
                   <label>Description:</label>
-                  <li><span>MERN Stack App </span></li>	
-                  <li> React project meant to provide up to date live scores and information on the world cup </li>
-                  <li> Used the MySportsMonk API to get the data coming in up to date even during the games </li>
+                  <li> Used HTML, CSS, Python, Django, and PostgreSQL </li>
+                  <li> Users can make an account and log in to create homes or view others </li>
+                  <li> Uses AWS3 to upload images </li>
+                  <li> Worked in a team environment, everyone doing their part to push up to the main project </li>
+                  <li> Was in charge of the group and main responsibilities </li>
 
-                  <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank' className='weblink'>World-Cup-Tracker</a>
+                  <a href='https://estates-castle.herokuapp.com/' target='_blank' className='weblink'>Estates-Castle</a>
               </aside>
             </div>
 
@@ -89,8 +94,10 @@ const App = () => {
                   <i class="fa-brands fa-aws fa-2xl"></i>
                 </div>
                 <label>Description:</label>
-                <li></li>
-                <li></li>
+                <li> Used HTML, CSS, Python, Django, and PostgreSQL </li>
+                <li> Uses AWS3 to upload images </li>
+                <li> Users can create pokemon and add them to the website database</li>
+                <li> Uses 4 data entities; the user model, pokemon model, pokeball model, and lastly the embedded training data</li>
 
                 <a href='https://python-pokedex.herokuapp.com/' target='_blank' className='weblink'>Pokédex</a>
               </aside>
@@ -99,6 +106,26 @@ const App = () => {
 
             <div className='right'>
               <img src="https://i.imgur.com/OecpJLb.png" width="500px" alt="" ></img>
+              <aside>
+                <h2> Narutoverse </h2>
+                  <br></br>
+                  <div className='skills'>
+                    <p>Technologies Used:</p>
+                    <br></br>
+                    <i class="fa-brands fa-html5 fa-2xl"></i>
+                    <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                    <i class="fa-brands fa-js-square fa-2xl"></i>
+                  </div>
+                  <label>Description:</label>
+                 
+                  <li> MEN stack app - Used MongoDB, Express, Node.js</li>
+                  <li>App has full CRUD capabilities saving all data in the Mongo Atlas Db</li>
+                  <li>All Naruto fans can log in using Google OAuth and create or chat about their favorite character(s)</li>
+                  <li>Usng Multer users can upload images/gifs</li>
+                  <li><span>MOBILE FRIENDLY</span></li>
+
+                  <a href='https://narutoverse.herokuapp.com/' target='_blank' className='weblink'>Narutoverse</a>
+              </aside>
             </div>
 
 
@@ -115,10 +142,13 @@ const App = () => {
                   <i class="fa-brands fa-js-square fa-2xl"></i>
                 </div>
                 <label>Description:</label>
-                <li></li>
-                <li></li>
+                <li>Single page game using only JavaScript, HTML, and CSS</li>
+                <li>Concentration memory game using 8 marvel comics characters</li>
+                <li>After every reset a shuffle function will trigger and a new game begins</li>
+                <li>User must use 35 clicks or less to flip each paid over. Goodluck!</li>
+                <li><span>MOBILE FRIENDLY</span></li>
 
-                <a href='https://raull10.github.io/marvel-concentration/' target='_blank' className='weblink'>Pokédex</a>
+                <a href='https://raull10.github.io/marvel-concentration/' target='_blank' className='weblink'>Marvel Madness</a>
               </aside>
             </div>
           
