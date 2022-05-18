@@ -49,7 +49,10 @@ h1{
   align-items: center;
   justify-content: center;
   background-color: rgb(42, 42, 42);
-  height: 350vh;
+  height: 300vh;
+}
+.ptitle {
+  margin-bottom: 30px;
 }
 .left {
   width: 85%;
@@ -57,6 +60,13 @@ h1{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 'pic aside';
+}
+.right {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'aside pic';
 }
 img {
   grid-area: pic;
@@ -88,7 +98,7 @@ li {
   color: white;
   font-size: 18px;
 }
-a{
+.weblink{
   color: seashell;
   margin-top: 40px;
   font-size: 20px;

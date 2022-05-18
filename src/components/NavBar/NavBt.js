@@ -7,7 +7,7 @@ export class NavBt extends Component {
     state = {
         color: 'white', //Active color
         color1: 'white',  //Base color
-        color2: 'lightblue',  //Hover color
+        color2: 'rgb(0, 162, 255)',  //Hover color
         location: ""        
     }
 
