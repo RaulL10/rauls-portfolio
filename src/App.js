@@ -29,6 +29,48 @@ const App = () => {
 
           <section id="S2" className="section-2">
             <h1> PROJECTS </h1>
+            <div className='left'>
+              <img src="https://i.imgur.com/ZqyNSv8.png" width="500px" alt="" ></img>
+              <aside>
+                <h2> World Cup Tracker </h2>
+                <br></br>
+                <div className='skills'>
+                  <p>Technologies Used:</p>
+                  <br></br>
+                  <i class="fa-brands fa-react fa-2xl"></i>
+                  <i class="fa-brands fa-html5 fa-2xl"></i>
+                  <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                  <i class="fa-brands fa-js-square fa-2xl"></i>
+                </div>
+                <label>Description:</label>
+                <li><span>MERN Stack App </span></li>	
+                <li> React project meant to provide up to date live scores and information on the world cup </li>
+                <li> Used the MySportsMonk API to get the data coming in up to date even during the games </li>
+
+                <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank'>World-Cup-Tracker</a>
+              </aside>
+            </div>
+
+
+            <div className='right'>
+              <img src="https://i.imgur.com/JhberSW.png" width="500px" alt="" ></img>
+              {/* <i class="fa-brands fa-python fa-2xl"></i> */}
+            </div>
+            <div className='left'>
+              <img src="https://i.imgur.com/goJAQxJ.png" width="500px" alt="" ></img>
+              <h2>Pokédex</h2>
+              <i class="fa-brands fa-python fa-2xl"></i>
+            </div>
+            <div className='right'>
+              <img src="https://i.imgur.com/OecpJLb.png" width="500px" alt="" ></img>
+              <i class="fa-brands fa-js-square"></i>
+            </div>
+            <div className='left'>
+              <img src="https://i.imgur.com/jZSeP8Y.png" width="500px" alt="" ></img>
+              <i class="fa-brands fa-js-square"></i>
+
+            </div>
+          
           </section>
 
           <section id="S3" className="section-3">

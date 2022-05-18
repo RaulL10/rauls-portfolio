@@ -45,12 +45,59 @@ h1{
 }
 .section-2 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(42, 42, 42);
-  height: 100vh;
+  height: 350vh;
 }
-
+.left {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'pic aside';
+}
+img {
+  grid-area: pic;
+}
+aside {
+  grid-area: aside;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+}
+.fa-brands, .fab {
+  color: white;
+  margin-right: 10px;
+}
+.skills {
+  float: left;
+  margin-bottom: 15px;
+}
+p {
+  color: rgb(0, 162, 255);
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+}
+a{
+  color: seashell;
+  margin-top: 40px;
+  font-size: 20px;
+}
+label {
+  color: rgb(0, 162, 255);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
 .section-3 {
   display: flex;
   flex-direction: column;
