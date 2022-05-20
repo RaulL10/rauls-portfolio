@@ -176,6 +176,9 @@ span {
   h1 {
     font-size: 4rem;
   }
+  .aboutP {
+    margin-top: 30px;
+  }
   .section-2 {
     display: flex;
     flex-direction: column;
