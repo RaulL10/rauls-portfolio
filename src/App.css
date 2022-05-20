@@ -22,7 +22,10 @@ h1{
 .mobile-hidden{
   visibility: hidden;
 }
-
+ul {
+  background-color: rgb(68, 68, 68);
+  opacity: 90%;
+}
 .header {
   display: flex;
   align-items: center;
