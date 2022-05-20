@@ -74,9 +74,9 @@ const RightNav = ({ open }) => {
 
             <div className="side-menu">
               <div className="flex-container-column ">
-                <p style={{fontSize: "2rem"}}>Alguma Soisa</p>
+                {/* <p style={{fontSize: "2rem"}}>Alguma Soisa</p>
                 <p>Something</p>
-                <h2 >ANYTHING</h2>
+                <h2 >ANYTHING</h2> */}
               </div>
             </div>
 
