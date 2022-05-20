@@ -49,10 +49,13 @@ const App = () => {
                 <li> Used the MySportsMonk API to get the data coming in up to date even during the games </li>
                 <li>Users can create an account and place predictions on matches and see their predictions compared to others</li>
                 <li><span>MOBILE FRIENDLY</span></li>
-                <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank' className='weblink'>World-Cup-Tracker</a>
+                <footer>
+                  <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a> 
+                  <a href='https://github.com/RaulL10/world-cup-tracker' target='_blank' className='weblink'>GitHub Code</a>
+                </footer>
+
               </aside>
             </div>
-            <hr></hr>
 
 
             <div className='right'>
@@ -74,8 +77,11 @@ const App = () => {
                   <li> Uses AWS3 to upload images </li>
                   <li> Worked in a team environment, everyone doing their part to push up to the main project </li>
                   <li> Was in charge of the group and main responsibilities </li>
+                  <footer>
+                  <a href='https://estates-castle.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a>
+                  <a href='https://github.com/RaulL10/estates' target='_blank' className='weblink'>GitHub Code</a>
 
-                  <a href='https://estates-castle.herokuapp.com/' target='_blank' className='weblink'>Estates-Castle</a>
+                  </footer>
               </aside>
             </div>
 
@@ -98,8 +104,11 @@ const App = () => {
                 <li> Uses AWS3 to upload images </li>
                 <li> Users can create pokemon and add them to the website database</li>
                 <li> Uses 4 data entities; the user model, pokemon model, pokeball model, and lastly the embedded training data</li>
-
-                <a href='https://python-pokedex.herokuapp.com/' target='_blank' className='weblink'>Pokédex</a>
+                <footer>
+                  <a href='https://python-pokedex.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a>
+                  <a href='https://github.com/RaulL10/Pokedex' target='_blank' className='weblink'>GitHub Code</a>
+                </footer>
+                
               </aside>
             </div>
 
@@ -123,8 +132,10 @@ const App = () => {
                   <li>All Naruto fans can log in using Google OAuth and create or chat about their favorite character(s)</li>
                   <li>Usng Multer users can upload images/gifs</li>
                   <li><span>MOBILE FRIENDLY</span></li>
-
-                  <a href='https://narutoverse.herokuapp.com/' target='_blank' className='weblink'>Narutoverse</a>
+                  <footer>
+                    <a href='https://narutoverse.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a>
+                    <a href='https://github.com/RaulL10/narutoverse' target='_blank' className='weblink'>GitHub Code</a>
+                  </footer>
               </aside>
             </div>
 
@@ -147,8 +158,11 @@ const App = () => {
                 <li>After every reset a shuffle function will trigger and a new game begins</li>
                 <li>User must use 35 clicks or less to flip each paid over. Goodluck!</li>
                 <li><span>MOBILE FRIENDLY</span></li>
+                <footer>
+                  <a href='https://raull10.github.io/marvel-concentration/' target='_blank' className='weblink'>Deployed App</a>
+                  <a href='https://github.com/RaulL10/marvel-concentration' target='_blank' className='weblink'>GitHub Code</a>
+                </footer>
 
-                <a href='https://raull10.github.io/marvel-concentration/' target='_blank' className='weblink'>Marvel Madness</a>
               </aside>
             </div>
           
@@ -170,10 +184,10 @@ const App = () => {
               </lable>
               <div id="socials">
 
-              <a href="https://github.com/RaulL10" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/Ksiclk5.png" alt="" height="40px" width="40px"/> </a>
-              <a href="https://www.linkedin.com/in/raullopez1410/" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/MTKBoLY.png" alt="" height="40px" width="40px"></img> </a>
-              <a href="https://twitter.com/titohuncho" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/YZgkpQG.png" alt="" height="40px" width="40px"></img> </a>
-              <a href="https://twitch.com/tithuncho" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/aWJafyL.png" alt="" height="40px" width="40px"></img> </a>
+              <a href="https://github.com/RaulL10" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/Ksiclk5.png" alt="" height="40px" width="40px" className='socials'/> </a>
+              <a href="https://www.linkedin.com/in/raullopez1410/" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/MTKBoLY.png" alt="" height="40px" width="40px" className='socials'></img> </a>
+              <a href="https://twitter.com/titohuncho" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/YZgkpQG.png" alt="" height="40px" width="40px" className='socials'></img> </a>
+              <a href="https://twitch.com/tithuncho" rel="noreferrer" target="_blank"> <img src="https://i.imgur.com/aWJafyL.png" alt="" height="40px" width="40px" className='socials'></img> </a>
               </div>
             </div>
           </section>
