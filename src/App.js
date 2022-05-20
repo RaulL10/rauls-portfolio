@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom'; 
 import NavBar from './components/NavBar/NavBar';
 import TopBtn from './components/TopBtn'
-
+import Typical from 'react-typical'
 
 const App = () => {
   return (
@@ -14,17 +14,37 @@ const App = () => {
           <TopBtn />
 
           <div id="Header" className="header">
-            <h1> Full Stack Software Engineer </h1>
+            <h1>I Am A 
+
+              <Typical
+                className='typical'
+                loop={Infinity}
+                wrapper='b'
+                steps={[
+                  ' Father',
+                  3000,
+                  ' Full Stack Software Engineer',
+                  3000,
+                  ' Front End Developer',
+                  3000,
+                  ' Programmer',
+                  3000,
+                  ' Gamer (wannabe)',
+                  3000
+                ]}
+              />
+            </h1>
           </div>
 
           <section id="S1" className="section-1">
             <h1> ABOUT ME </h1>
-            <p className='aboutP'>Hello, I am a 26 year old father of a 2 year old. I have lived in 
-              Los Angeles my entire life. Tech geek who just loves gaming and computers. 
+            <p className='aboutP'>Hello, I am a 26 year old father of a 2 year old little boy. I have lived in 
+              Los Angeles my entire life. 1st generation American hoping to live out the American dream. Break the
+              cycle, and show my son along with others that if I can so can they. Tech geek who just loves gaming and computers. 
               I got into coding and received a partial scholarship from Adobe to attend General Assembly 
               where I currently am finishing up a boot camp. Wide eyed- and eager 
-              for a chance to prove myself I am looking for an opportunity. 
-              Thank You so much! </p>
+              for a chance to prove myself I am looking for an opportunity.  
+              <span>  Thank You so much!</span></p>
           </section>
 
           <section id="S2" className="section-2">
@@ -50,8 +70,8 @@ const App = () => {
                 <li>Users can create an account and place predictions on matches and see their predictions compared to others</li>
                 <li><span>MOBILE FRIENDLY</span></li>
                 <footer>
-                  <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a> 
-                  <a href='https://github.com/RaulL10/world-cup-tracker' target='_blank' className='weblink'>GitHub Code</a>
+                  <a href='https://world-cup-tracker-2022.herokuapp.com/' target='_blank' rel='noreferrer' className='weblink'>Deployed App</a> 
+                  <a href='https://github.com/RaulL10/world-cup-tracker' target='_blank' rel='noreferrer' className='weblink'>GitHub Code</a>
                 </footer>
 
               </aside>
@@ -78,8 +98,8 @@ const App = () => {
                   <li> Worked in a team environment, everyone doing their part to push up to the main project </li>
                   <li> Was in charge of the group and main responsibilities </li>
                   <footer>
-                  <a href='https://estates-castle.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a>
-                  <a href='https://github.com/RaulL10/estates' target='_blank' className='weblink'>GitHub Code</a>
+                  <a href='https://estates-castle.herokuapp.com/' target='_blank' rel='noreferrer' className='weblink'>Deployed App</a>
+                  <a href='https://github.com/RaulL10/estates' target='_blank' rel='noreferrer' className='weblink'>GitHub Code</a>
 
                   </footer>
               </aside>
@@ -105,8 +125,8 @@ const App = () => {
                 <li> Users can create pokemon and add them to the website database</li>
                 <li> Uses 4 data entities; the user model, pokemon model, pokeball model, and lastly the embedded training data</li>
                 <footer>
-                  <a href='https://python-pokedex.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a>
-                  <a href='https://github.com/RaulL10/Pokedex' target='_blank' className='weblink'>GitHub Code</a>
+                  <a href='https://python-pokedex.herokuapp.com/' target='_blank' rel='noreferrer' className='weblink'>Deployed App</a>
+                  <a href='https://github.com/RaulL10/Pokedex' target='_blank' rel='noreferrer' className='weblink'>GitHub Code</a>
                 </footer>
                 
               </aside>
@@ -133,8 +153,8 @@ const App = () => {
                   <li>Usng Multer users can upload images/gifs</li>
                   <li><span>MOBILE FRIENDLY</span></li>
                   <footer>
-                    <a href='https://narutoverse.herokuapp.com/' target='_blank' className='weblink'>Deployed App</a>
-                    <a href='https://github.com/RaulL10/narutoverse' target='_blank' className='weblink'>GitHub Code</a>
+                    <a href='https://narutoverse.herokuapp.com/' target='_blank' rel='noreferrer' className='weblink'>Deployed App</a>
+                    <a href='https://github.com/RaulL10/narutoverse' target='_blank' rel='noreferrer' className='weblink'>GitHub Code</a>
                   </footer>
               </aside>
             </div>
@@ -159,8 +179,8 @@ const App = () => {
                 <li>User must use 35 clicks or less to flip each paid over. Goodluck!</li>
                 <li><span>MOBILE FRIENDLY</span></li>
                 <footer>
-                  <a href='https://raull10.github.io/marvel-concentration/' target='_blank' className='weblink'>Deployed App</a>
-                  <a href='https://github.com/RaulL10/marvel-concentration' target='_blank' className='weblink'>GitHub Code</a>
+                  <a href='https://raull10.github.io/marvel-concentration/' target='_blank' rel='noreferrer' className='weblink'>Deployed App</a>
+                  <a href='https://github.com/RaulL10/marvel-concentration' target='_blank' rel='noreferrer' className='weblink'>GitHub Code</a>
                 </footer>
 
               </aside>
