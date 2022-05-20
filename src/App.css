@@ -54,7 +54,7 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: rgb(42, 42, 42);
-  height: 330vh;
+  /* height: 330vh; */
 }
 .ptitle {
   margin-bottom: 30px;
@@ -182,7 +182,7 @@ span {
     align-items: center;
     justify-content: center;
     background-color: rgb(42, 42, 42);
-    height: 430vh;
+    /* height: 430vh; */
   }
   .ptitle {
     margin-bottom: 50px;
