@@ -38,13 +38,9 @@ const App = () => {
 
           <section id="S1" className="section-1">
             <h1> ABOUT ME </h1>
-            <p className='aboutP'>Hello, I am Raul Lopez, a 26 year old father of a 2 year old little boy. I have lived in 
-              Los Angeles my entire life. 1st generation American hoping to live out the American dream. Break the
-              cycle, and show my son along with others that if I can so can they. Tech geek who just loves gaming and computers. 
-              I got into coding and received a partial scholarship from Adobe to attend General Assembly 
-              where I currently am finishing up a boot camp. Wide eyed- and eager 
-              for a chance to prove myself I am looking for an opportunity.  
-              <span>  Thank You so much!</span></p>
+            <p className='aboutP'> Hello, I am Raul Lopez, a 26 year old father of a 2 year old little boy. I have lived in 
+              Los Angeles my entire life. 1st generation American hoping to live out the American dream. 
+            </p>
           </section>
 
           <section id="S2" className="section-2">

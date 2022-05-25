@@ -137,7 +137,7 @@ label {
 
 }
 span {
-  color: red;
+  color: rgb(0, 255, 221);
 }
 .section-3 {
   display: flex;
