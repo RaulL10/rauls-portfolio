@@ -147,7 +147,7 @@ span {
   align-items: center;
   justify-content: center;
   background-color: rgb(68, 68, 68);
-  /* height: 40vh; */
+  height: 45vh;
 }
 .contactLabel {
   color: rgb(0, 162, 255);
@@ -216,6 +216,9 @@ span {
   .socials {
   width: 30px;
   height: 30px;
+}
+.section-3 {
+  height: 80vh;
 }
 }
 @media (min-width: 700px) {
