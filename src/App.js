@@ -188,11 +188,11 @@ const App = () => {
             <h1>CONTACT INFO</h1>
             <div className='contactCard'>
               <lable className="contactLabel">EMAIL</lable>
-              <p>lopezraul1410@gmail.com</p> 
+              <p className='contactP'>lopezraul1410@gmail.com</p> 
             </div>
             <div className='contactCard'>
               <lable className="contactLabel">PHONE</lable>
-              <p>(310)598-0400</p>
+              <p className='contactP'>(310)598-0400</p>
             </div>
             <div className='contactCard'>
               <lable className="contactLabel">
