@@ -52,14 +52,14 @@ const App = () => {
                 <h2> World Cup Tracker </h2>
                 <br></br>
                 <div className='skills'>
-                  <p>Technologies Used:</p>
+                  <p>Technologies Used</p>
                   <br></br>
                   <i class="fa-brands fa-react fa-2xl"></i>
                   <i class="fa-brands fa-html5 fa-2xl"></i>
                   <i class="fa-brands fa-css3-alt fa-2xl"></i>
                   <i class="fa-brands fa-js-square fa-2xl"></i>
                 </div>
-                <label>Description:</label>
+                <label>Description</label>
                 <li>MERN Stack App</li>	
                 <li> React project meant to provide up to date live scores and information on the world cup </li>
                 <li> Used the MySportsMonk API to get the data coming in up to date even during the games </li>
@@ -80,14 +80,14 @@ const App = () => {
                 <h2> Estates-Castle </h2>
                   <br></br>
                   <div className='skills'>
-                    <p>Technologies Used:</p>
+                    <p>Technologies Used</p>
                     <br></br>
                     <i class="fa-brands fa-python fa-2xl"></i>
                     <i class="fa-brands fa-html5 fa-2xl"></i>
                     <i class="fa-brands fa-css3-alt fa-2xl"></i>
                     <i class="fa-brands fa-aws fa-2xl"></i>
                   </div>
-                  <label>Description:</label>
+                  <label>Description</label>
                   <li> Used HTML, CSS, Python, Django, and PostgreSQL </li>
                   <li> Users can make an account and log in to create homes or view others </li>
                   <li> Uses AWS3 to upload images </li>
@@ -108,14 +108,14 @@ const App = () => {
                 <h2>Pokédex</h2>
                 <br></br>
                 <div className='skills'>
-                  <p>Technologies Used:</p>
+                  <p>Technologies Used</p>
                   <br></br>
                   <i class="fa-brands fa-python fa-2xl"></i>
                   <i class="fa-brands fa-html5 fa-2xl"></i>
                   <i class="fa-brands fa-css3-alt fa-2xl"></i>
                   <i class="fa-brands fa-aws fa-2xl"></i>
                 </div>
-                <label>Description:</label>
+                <label>Description</label>
                 <li> Used HTML, CSS, Python, Django, and PostgreSQL </li>
                 <li> Uses AWS3 to upload images </li>
                 <li> Users can create pokemon and add them to the website database</li>
@@ -135,13 +135,13 @@ const App = () => {
                 <h2> Narutoverse </h2>
                   <br></br>
                   <div className='skills'>
-                    <p>Technologies Used:</p>
+                    <p>Technologies Used</p>
                     <br></br>
                     <i class="fa-brands fa-html5 fa-2xl"></i>
                     <i class="fa-brands fa-css3-alt fa-2xl"></i>
                     <i class="fa-brands fa-js-square fa-2xl"></i>
                   </div>
-                  <label>Description:</label>
+                  <label>Description</label>
                  
                   <li> MEN stack app - Used MongoDB, Express, Node.js</li>
                   <li>App has full CRUD capabilities saving all data in the Mongo Atlas Db</li>
@@ -162,13 +162,13 @@ const App = () => {
               <h2>Marvel Madness</h2>
                 <br></br>
                 <div className='skills'>
-                  <p>Technologies Used:</p>
+                  <p>Technologies Used</p>
                   <br></br>
                   <i class="fa-brands fa-html5 fa-2xl"></i>
                   <i class="fa-brands fa-css3-alt fa-2xl"></i>
                   <i class="fa-brands fa-js-square fa-2xl"></i>
                 </div>
-                <label>Description:</label>
+                <label>Description</label>
                 <li>Single page game using only JavaScript, HTML, and CSS</li>
                 <li>Concentration memory game using 8 marvel comics characters</li>
                 <li>After every reset a shuffle function will trigger and a new game begins</li>
