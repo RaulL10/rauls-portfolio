@@ -42,7 +42,7 @@ const App = () => {
               Los Angeles my entire life. 1st generation American hoping to live out the American dream. Sports, gaming, and 
               computer build enthusiast! Started coding througout the pandemic and found a passion for it. Recieved a partial scholarship
               from Adobe Digital Academy to attend General Assembly to continue practing my skills. Completed the Software Engineer Immersive program
-              with many projects and was able to add languages, frameworks, and libraries to my skill set. 
+              with many projects and was able to add many new languages, frameworks, and libraries to my skill set. 
             </p>
           </section>
 
